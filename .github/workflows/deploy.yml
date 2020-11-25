@@ -1,0 +1,35 @@
+name: Deploy Hugo Site
+
+on:
+  push:
+    branches:
+    - master
+
+jobs:
+  deploy:
+
+    # build agent
+    runs-on: ubuntu-18.04
+    steps:
+    - uses: actions/checkout@v2
+
+    # install / setup hugo
+    # https://github.com/peaceiris/actions-hugo
+    - name: Setup Hugo
+      uses: peaceiris/actions-hugo@v2
+      with:
+        hugo-version: '0.68.3'
+
+    # build site
+    - name: Build
+      run: hugo --minify
+
+    # deploy to destination repo
+    # https://github.com/peaceiris/actions-gh-pages
+    - name: Deploy
+      uses: peaceiris/actions-gh-pages@v3
+      with:
+        deploy_key: ${{ secrets.ACTIONS_DEPLOY_KEY }}
+        external_repository: archwizard56/archwizard56.github.io
+        publish_dir: ./public
+        destination_dir: wiki
