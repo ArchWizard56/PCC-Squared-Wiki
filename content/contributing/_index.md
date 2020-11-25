@@ -11,7 +11,6 @@ chapter = true
 - Spot a typo, or can you make a paragraph more clear and helpful? [Edit a page](editingpage)
 - Find an awesome tool, or have you solved a unique challenge that could be useful in the future? [Add a page](addingpage)
 
-You'll need to install Hugo to contribute to this wiki.
 
 
 
