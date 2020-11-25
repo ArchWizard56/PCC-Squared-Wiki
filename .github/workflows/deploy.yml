@@ -31,5 +31,6 @@ jobs:
       with:
         deploy_key: ${{ secrets.ACTIONS_DEPLOY_KEY }}
         external_repository: archwizard56/archwizard56.github.io
+        publish_branch: master
         publish_dir: ./public
         destination_dir: wiki
