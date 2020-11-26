@@ -33,4 +33,5 @@ jobs:
         external_repository: archwizard56/archwizard56.github.io
         publish_branch: master
         publish_dir: ./public
+        enable_jekyll: true
         destination_dir: wiki
