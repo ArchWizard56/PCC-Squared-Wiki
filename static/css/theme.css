@@ -39,7 +39,7 @@
     src: url("../fonts/Work_Sans_500.eot?#iefix") format("embedded-opentype"), url("../fonts/Work_Sans_500.woff") format("woff"), url("../fonts/Work_Sans_500.woff2") format("woff2"), url("../fonts/Work_Sans_500.svg#WorkSans") format("svg"), url("../fonts/Work_Sans_500.ttf") format("truetype");
 }
 body {
-    background: #fff;
+    background: #151515 url("../images/bkg.png") 0 0;;
     color: #777;
 }
 body #chapter h1 {
@@ -464,7 +464,8 @@ h1 {
     font-family: "Novacento Sans Wide", "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
     text-align: center;
     text-transform: uppercase;
-    color: #222;
+    font-weight: bold;
+    color: #b5e853;
     font-weight: 200;
 }
 blockquote {
@@ -988,7 +989,7 @@ td {
     background: #34495E;
 }
 #top-bar {
-    background: #F6F6F6;
+    background: #252c31;
     border-radius: 2px;
     padding: 0 1rem;
     height: 0;
