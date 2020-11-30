@@ -5,4 +5,4 @@ title: "Home"
 
 # Welcome to the PCC² wiki
 
-Here you'll find a gathering of resources, guides, and other helpful information compiled by the Portland Community College Cybersecurity Club (PCC²). If you're looking to get started, take a peek at the master resources page, migrated from our Discord. For more information about the club, see our [homepage](https://pcc-cybersecurity-club.github.io/), and if you have anything that you think belongs here, see our guide on contributing to this wiki [here](/contributing).
+Here you'll find a gathering of resources, guides, and other helpful information compiled by the Portland Community College Cybersecurity Club P(CC²). If you're looking to get started, take a peek at the master resources page, migrated from our Discord. For more information about the club, see our [homepage](https://pcc-cybersecurity-club.github.io/), and if you have anything that you think belongs here, see our guide on contributing to this wiki [here](/contributing).
