@@ -1,6 +1,6 @@
 baseURL = "/wiki"
 languageCode = "en-us"
-title = "(PCC)^2 Wiki"
+title = "P(CC)^2 Wiki"
 theme = "hugo-theme-learn"
 
 [params]
