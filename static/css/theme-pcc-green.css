@@ -2,9 +2,10 @@
 :root{
 
     --MAIN-TEXT-color:#fff; /* Color of text by default */
-    --MAIN-TITLES-TEXT-color: #b5e853; /* Color of titles h2-h3-h4-h5 */
-    --MAIN-LINK-color:#008099; /* Color of links */
-    --MAIN-LINK-HOVER-color:#3f6d2c; /* Color of hovered links */
+    --MAIN-TITLES-TEXT-color: #b4e854; /* Color of titles h2-h3-h4-h5 */
+    --MAIN-LINK-color:#00cef7; /* Color of links */
+    --MAIN-LINK-SHADOW-color:#00e7f7; /* Color of links */
+    --MAIN-LINK-HOVER-color:#b4e854; /* Color of hovered links */
     --MAIN-ANCHOR-color: #599a3e; /* color of anchors on titles */
 
     --MENU-HOME-LINK-color: #323232; /* Color of the home button text */
@@ -44,6 +45,7 @@ h2, h3, h4, h5 {
 
 a {
     color: var(--MAIN-LINK-color);
+    text-shadow: 0 0 10px var(--MAIN-LINK-SHADOW-color);
 }
 
 .anchor {
@@ -90,6 +92,7 @@ a:hover {
 
 #sidebar a {
     color: var(--MENU-SECTIONS-LINK-color);
+    text-shadow: none;  
 }
 
 #sidebar a:hover {
