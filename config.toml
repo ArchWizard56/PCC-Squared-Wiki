@@ -1,11 +1,11 @@
 baseURL = "/wiki"
 languageCode = "en-us"
-title = "(PCC)^2 Wiki"
+title = "P(CC)^2 Wiki"
 theme = "hugo-theme-learn"
 
 [params]
 editURL = "https://github.com/ArchWizard56/PCC-Squared-Wiki/tree/main/content/"
-themeVariant = "pcc"
+themeVariant = "pcc-green"
 titleSeparator = "-"
 
 [outputs]
