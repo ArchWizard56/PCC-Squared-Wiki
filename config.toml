@@ -5,7 +5,7 @@ theme = "hugo-theme-learn"
 
 [params]
 editURL = "https://github.com/ArchWizard56/PCC-Squared-Wiki/tree/main/content/"
-themeVariant = "blue"
+themeVariant = "pcc-green"
 titleSeparator = "-"
 
 [outputs]
