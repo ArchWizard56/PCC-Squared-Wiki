@@ -1,7 +1,7 @@
 ---
 title: "Home"
 ---
-![](/images/logoWhite.png)
+![](images/logoWhite.png)
 
 # Welcome to the PCC² wiki
 
