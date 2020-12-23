@@ -1,7 +1,7 @@
 ---
 title: "Home"
 ---
-![](https://pcc-cybersecurity-club.github.io/assets/images/PCCCC_Simple_Logo_T.png)
+![](/images/logoWhite.png)
 
 # Welcome to the PCC² wiki
 
