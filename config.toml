@@ -2,6 +2,7 @@ baseURL = "/wiki"
 languageCode = "en-us"
 title = "P(CC)^2 Wiki"
 theme = "hugo-theme-learn"
+canonifyURLs = true
 
 [params]
 editURL = "https://github.com/ArchWizard56/PCC-Squared-Wiki/tree/main/content/"
